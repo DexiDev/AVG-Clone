@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d85ee802749a4690bce173a785973c2c, type: 3}
+  m_Name: Level Config
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 8472895716705030950, guid: 2d8d8d38852614d758eb410eefd611a3, type: 3}
+    - {fileID: 8472895716705030950, guid: 06cc9a64635f240b284b3eb01f691e6f, type: 3}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: SkipForLoop
+      Entry: 3
+      Data: 0
+    - Name: UIWinScreen
+      Entry: 10
+      Data: 0
+    - Name: UILoseScreen
+      Entry: 10
+      Data: 1
+  _datas:
+  - {fileID: 11400000, guid: 897b2d8dfae4d43c2ab90acab2dedfd3, type: 2}

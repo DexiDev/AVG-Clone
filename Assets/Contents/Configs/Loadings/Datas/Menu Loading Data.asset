@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fc8eb343adb4273846c321e019558e0, type: 3}
+  m_Name: Menu Loading Data
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 102900000, guid: 6e640f5ac7f4249a483c2972f2858128, type: 3}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: <LoadingSettings>k__BackingField
+      Entry: 7
+      Data: 0|Game.Loadings.LoadingSettings[], Assembly-CSharp
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 1|Game.Loadings.LoadingSettings, Assembly-CSharp
+    - Name: _scene
+      Entry: 7
+      Data: 2|Game.Loadings.Scenes.SceneField, Assembly-CSharp
+    - Name: m_SceneAsset
+      Entry: 10
+      Data: 0
+    - Name: m_SceneName
+      Entry: 1
+      Data: Menu
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _loadSceneMode
+      Entry: 3
+      Data: 0
+    - Name: _isActive
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  <ID>k__BackingField: Menu
+  <MinDurationLoading>k__BackingField: 3

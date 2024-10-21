@@ -1,0 +1,20 @@
+using UnityEngine;
+
+namespace Game.Loadings.Scenes
+{
+    [System.Serializable]
+    public class SceneField : IScene
+    {
+        [SerializeField] private Object m_SceneAsset;
+
+        [SerializeField] private string m_SceneName = "";
+
+        public string SceneName => m_SceneName;
+
+        // makes it work with the existing Unity methods (LoadLevel/LoadScene)
+        public static implicit operator string(SceneField sceneField)
+        {
+            return sceneField.SceneName;
+        }
+    }
+}
